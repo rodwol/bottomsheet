@@ -13,28 +13,27 @@ This project demonstrates how to use **Modal** and **Persistent** BottomSheets i
 
 ### Run the app
 
-```bash
 git clone https://github.com/rodwol/bottomsheet.git
 cd bottomsheet
 flutter run
 
-| **Widget/Attribute**       | **Purpose**                                                                 |
-|----------------------------|-----------------------------------------------------------------------------|
-| **`Builder`**              | Ensures correct `BuildContext` for `Scaffold.of(context).showBottomSheet()`.|
-| **`extendBodyBehindAppBar`** | Extends background image beneath the `AppBar` for seamless visuals.         |
-| **`BoxDecoration`**        | Applies shadows (`BoxShadow`) and rounded corners (`BorderRadius`).         |
+## 📚 Key Widgets & Attributes
+| **Widget/Attribute**           | **Purpose**                                                                 |
+|-------------------------------|------------------------------------------------------------------------------|
+| `Builder`                     | Ensures correct `BuildContext` for `Scaffold.of(context).showBottomSheet()`. |
+| `extendBodyBehindAppBar`      | Extends the background image beneath the `AppBar` for seamless visuals.      |
+| `BoxDecoration`               | Adds shadows (`BoxShadow`) and rounded corners (`BorderRadius`).             |
 
 ## 📸 Screenshots
-
-### Modal BottomSheet
-![Modal](https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161641.png?raw=true)
-
----
-
-### Persistent BottomSheet  
-![Persistent](https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161657.png?raw=true)
+### 📌 Modal BottomSheet  
+![Modal BottomSheet](https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161641.png?raw=true)
 
 ---
 
-### BottomSheet  
-!(https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161711.png?raw=true)
+### 📌 Persistent BottomSheet  
+![Persistent BottomSheet](https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161657.png?raw=true)
+
+---
+
+### 📌 Standard BottomSheet  
+![Standard BottomSheet](https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161711.png?raw=true)
