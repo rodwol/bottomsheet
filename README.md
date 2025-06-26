@@ -1,16 +1,19 @@
-# bottomsheet
+# Flutter BottomSheet Demo
 
-A new Flutter project.
+This project demonstrates how to use **Modal** and **Persistent** BottomSheets in Flutter with clean separation between files and maintainable structure.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+### 🛠 Prerequisites
+- Flutter SDK (>= 3.x)
+- Dart SDK
+- Android Studio or VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ▶️ Run the app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/rodwol/bottomsheet.git
+cd bottomsheet
+flutter run
