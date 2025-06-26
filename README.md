@@ -1,8 +1,9 @@
-# REA
+# BottomSheet Demo
+[Watch Demo Video](https://github.com/rodwol/bottomsheet/blob/main/BottomSheet%20Demo%20Video.mp4)
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🛠 Prerequisites
+### Prerequisites
 - Flutter SDK (>= 3.x)
 - Dart SDK
 - Android Studio or VS Code
@@ -13,7 +14,7 @@ git clone https://github.com/rodwol/bottomsheet.git
 cd bottomsheet
 flutter run
 
-## 📚 Key Widgets & Attributes
+## Key Widgets
 | **Widget/Attribute**           | **Purpose**                                                                 |
 |-------------------------------|------------------------------------------------------------------------------|
 | `Builder`                     | Ensures correct `BuildContext` for `Scaffold.of(context).showBottomSheet()`. |
