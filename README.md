@@ -1,8 +1,4 @@
-# Flutter BottomSheet Demo
-
-This project demonstrates how to use **Modal** and **Persistent** BottomSheets in Flutter with clean separation between files and maintainable structure.
-
----
+# REA
 
 ## 🚀 Getting Started
 
