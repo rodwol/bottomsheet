@@ -18,34 +18,23 @@ git clone https://github.com/rodwol/bottomsheet.git
 cd bottomsheet
 flutter run
 
-⚙️ Key Attributes
-Here are three important attributes or design elements used in the app:
-
-🔹 Builder Widget
-Used to obtain a proper BuildContext for the persistent bottom sheet.
-It ensures Scaffold.of(context).showBottomSheet() works without error.
-
-🔹 extendBodyBehindAppBar
-Allows the background image to extend beneath the AppBar, creating a layered and immersive UI effect.
-
-🔹 BoxDecoration with BoxShadow and BorderRadius
-Gives buttons a card-like, elevated appearance with rounded corners and soft shadows for a polished design.
+| **Widget/Attribute**       | **Purpose**                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| **`Builder`**              | Ensures correct `BuildContext` for `Scaffold.of(context).showBottomSheet()`.|
+| **`extendBodyBehindAppBar`** | Extends background image beneath the `AppBar` for seamless visuals.         |
+| **`BoxDecoration`**        | Applies shadows (`BoxShadow`) and rounded corners (`BorderRadius`).         |
 
 ## 📸 Screenshots
 
 ### Modal BottomSheet
-
-![Modal](screenshots/modal.png)
-
----
-
-### Persistent BottomSheet
-
-![Persistent](screenshots/persistent.png)
+![Modal](https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161641.png?raw=true)
 
 ---
 
-### Draggable Scrollable BottomSheet
+### Persistent BottomSheet  
+![Persistent](https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161657.png?raw=true)
 
-![Draggable](screenshots/draggable.png)
+---
 
+### BottomSheet  
+!(https://github.com/rodwol/bottomsheet/blob/main/Screenshot%202025-06-26%20161711.png?raw=true)
